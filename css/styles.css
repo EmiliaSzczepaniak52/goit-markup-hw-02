@@ -10,6 +10,8 @@ body{
     font-size:14px;
     font-weight: 500;
     letter-spacing: 2%;
+    border:2px solid blue;
+
 }
 :root{
     --color:blue;
@@ -20,28 +22,27 @@ body{
     font-size:26px;
     font-weight:700;
     letter-spacing: 3%;
+    margin:20px;
 }
 .studio{
     font-family: 'Raleway', sans-serif;
     font-size:26px;
     font-weight:700;
+    margin:20px;
 }
 .ithem-header{
-    display:flex;
     font-style: normal;
     text-decoration: none;
 }
 .list{
     list-style: none;
     text-decoration: none;
-    margin:20px;
-    
-
-}
+    margin:20pm;
+ }
 .nav{
     display:flex;
-     margin:30px;
-     text-align:center;
+    margin:20px;
+  
 }
 .contact{
     display:flex;
@@ -53,14 +54,18 @@ body{
     height:252px;
     background-color:#2F303A;
 }
-
-.image-box{
+.img{
     display:flex;
 }
-
-footer{
+.number{
+    display:flex;
+}
+/* footer */
+.item-footer{
     font-family: 'Raleway', sans-serif;
     background-color:#2F303A;
     width:1600px;
     height:252px;
+    margin:20px;
+    padding:20px;
 }
