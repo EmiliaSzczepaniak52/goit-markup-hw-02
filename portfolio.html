@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
 
     <link rel="stylesheet" href="css/styles.css"/>
 
@@ -13,15 +13,17 @@
 <body>
 <header>
     <div class="item-header">
+    
     <nav>
       <ul class="list nav">
         <li class="nav"><div class="web">Web</div><div class="studio">Studio</div></li>
         <li class="nav">Agencja</li>
+        <li class="nav1">Portfolio</li>
         <li class="nav">Kontakt</li>
-        <li class="nav">Portfolio</li>
+      
       </ul>
     </nav>
-    <ul class="contact">
+    <ul class="contact nav">
         <li class="nav">+48 111 111 111</li>
         <li class="nav">info@devstudio.com</li>
     </ul>
@@ -29,7 +31,7 @@
    
 </header>
 <main>
-<div>
+
     <div id="button box"> 
       <button class="box" type="button">Wszystkie</button>
       <button class="box" type="button">Strony</button>
@@ -133,14 +135,22 @@
        </ul>
 
     </div>
-</div>
+
 </main>
-<footer>
+<footer class="footer">
     <div class="item-footer">
-        <a href=""><span class="top-title">Web</span>Studio</a>
-        <p><b>m. Warszawa, Aleje Jerozolimskie 21</b></p>
-        <address>info@example.com</address>
-        <p>+48 111 111 111</p>
+        
+        <a href="index.html" class="link-footer"><div class="web">Web</div><div class="studio">Studio</div></a>
+        <address class="address-text">
+            m. Warszawa, Aleje Jerozolimskie 21</li>
+        </address>  
+            <ul class="footer-list">
+            <li><a href="emailto:info@example.com" class="link-footer">info@devstudio.com</a>
+            </li>
+            <li>
+            <a href="tel:+48111111111" class="link-footer"></a>+48 111 111 111</a>
+            </li>
+            </ul>
     </div>
 </footer>  
 </body>
