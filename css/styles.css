@@ -4,15 +4,27 @@ body{
     padding:0;
     background-color:#E5E5E5;
 }
+.item-header{
+    width: 1600px;
+    height: 80px;
+    font-size:14px;
+    font-weight: 500;
+    letter-spacing: 2%;
+}
 :root{
     --color:blue;
 }
 .web{
+    font-family: 'Raleway', sans-serif;
     color:var(--color);
-    font-size:34px;
+    font-size:26px;
+    font-weight:700;
+    letter-spacing: 3%;
 }
 .studio{
-    font-size:34px;
+    font-family: 'Raleway', sans-serif;
+    font-size:26px;
+    font-weight:700;
 }
 .ithem-header{
     display:flex;
@@ -23,7 +35,8 @@ body{
     list-style: none;
     text-decoration: none;
     margin:20px;
-    float:left;;
+    
+
 }
 .nav{
     display:flex;
@@ -40,6 +53,11 @@ body{
     height:252px;
     background-color:#2F303A;
 }
+
+.image-box{
+    display:flex;
+}
+
 footer{
     font-family: 'Raleway', sans-serif;
     background-color:#2F303A;
