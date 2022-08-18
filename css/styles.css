@@ -2,14 +2,14 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style:normal;
     font-weight:500;
-    margin:auto;
-    padding:0;
     background-color:#fff;
+    margin:0;
+    padding:0;
 }
 .item-header{
     width: 1600px;
-    height: 80px;
-    display:flex;
+    height: 42px;
+    padding:24px;
 }
 .logo{
     font-weight: 700;
@@ -18,7 +18,7 @@ body{
     letter-spacing: 0.03em;
     font-family: 'Raleway', sans-serif;
     position: absolute;
-    margin-top:24px;
+    margin-top:10px;
     margin-left:215px;
     display:flex;
     }
@@ -33,63 +33,128 @@ body{
     color:var(--blue);
 }
 .logo-link{
-    text-decoration: none;
+    text-decoration:none;
     color:black;
 }
 .logo-link:hover{
     color:var(--black);
 }
+.nav-main{
+    position: absolute;
+    width: 261px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+}
 .list{
     display:flex;
-    text-decoration: none;
-  
+    list-style:none;
+    text-align:center;
+} 
 
-}
 .nav{
-    position: absolute;
-    top:32px;
-    left:465px;  
-}
-.contact{
-    display:flex;
+    font-size: 14px;
+    line-height:1.14em;
+    letter-spacing:0.02em;
+    padding-left:30px;
+} 
+li > a{
+    color:var(--blue);
     text-decoration:none;
+} 
+.contact-nav{
+    display:flex;
+    list-style:none;
     position: absolute;
-    top:32px;
-    left:1078px;
+    left: 1078px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    color: #757575;
+   
 }
 
 /* część main */
 
 
- .button{ 
-    line-height: 1.6;
-    padding:1.6;
+.button{ 
+    line-height: 1.6em;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color:#212121;
 }
+.box{
+    width: 77px;
+    height: 26px;
+   }
+.box1{
+   background-color: var(--blue); 
+   color:var(--white);
+   border-radius: 4px;
+}
+
+.box1:hover{
+   background-color:#1085e2;
+}
+.hiden{}
 .img{
-    display:flex;
+  
 }
 .number{
     display:flex;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    width370px;
+    height404px;
 }
 /* footer */
-.item-footer{
-    font-family: 'Raleway', sans-serif;
+
+.footer{
     background-color:var(--black);
     color:var(--white);
     width:1600px;
     height:252px;
-    margin:20px;
+    padding:10px;
+   
+}
+.logo-item{
     padding:60px;
-   
-}
-.link-footer{
     text-decoration:none;
+    color:black;
+
 }
-.footer-list{
+.footer:hover{
+    background-color: #1E2029;
+}
+.logo-address{
+    margin-top:115px;
+    margin-left:275px;  
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing:0.03em;
+}
+.contact{
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71em;
+    margin:0;
+    padding:0;
+
+}
+.nav_footer{
+    line-height:1.14em;
+    letter-spacing:0.02em;
     list-style:none;
-    padding:20px;
+  
 }
-.address-text{
-    margin:20px;
-   
+a[title]{
+    text-decoration:underline;
+   }
+.footer a{
+    color:var(--white);
 }
+    
