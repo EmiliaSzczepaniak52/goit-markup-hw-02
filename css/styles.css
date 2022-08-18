@@ -27,6 +27,7 @@ body{
     --blue:#2196f3;
     --white:#E5E5E5;
     --black:#2F303A;
+    --white1:#fff;
    
 }
 .web{
@@ -77,37 +78,65 @@ li > a{
 
 /* część main */
 
-
 .button{ 
     line-height: 1.6em;
     font-size: 16px;
     letter-spacing: 0.03em;
     color:#212121;
+    text-align:center;
+    font-size: 16px;
+    line-height: 1.62em;
+    color:var(--white1);
 }
 .box{
-    width: 77px;
-    height: 26px;
+    
+    height:38px;
+    border-radius: 4px;
+    background-color:#F5F4FA;
    }
 .box1{
-   background-color: var(--blue); 
-   color:var(--white);
-   border-radius: 4px;
+    width: 121px;
+    background-color: var(--blue); 
+    color:var(--white);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+.box2{
+    width: 93px;
+}
+.box3{
+    width: 114px;
+}
+.box4{
+    width: 91px;
+}
+.box5{
+    width: 121px;
+}
 .box1:hover{
    background-color:#1085e2;
 }
-.hiden{}
-.img{
-  
-}
+
 .number{
     display:flex;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    width370px;
-    height404px;
+    box-sizing: border-box;
+  }
+.fig-frist{
+    font-weight: 700;
+    font-size: 18px;
+    line-height:2em;
+    letter-spacing: 0.06em;
+    color: #212121;
 }
+.fig-second{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88em;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
 /* footer */
 
 .footer{
