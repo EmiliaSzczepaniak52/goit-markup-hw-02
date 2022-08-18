@@ -115,6 +115,9 @@ li > a{
 .box1:hover{
    background-color:#1085e2;
 }
+box:hover{
+    background-color:#E4E3E9;
+}
 
 .number{
     display:flex;
