@@ -5,6 +5,7 @@ body{
     background-color:#fff;
     margin:0;
     padding:0;
+  
 }
 .item-header{
     width: 1600px;
@@ -17,7 +18,7 @@ body{
     line-height: 1.19em; 
     letter-spacing: 0.03em;
     font-family: 'Raleway', sans-serif;
-    position: absolute;
+    /* position: absolute; */
     margin-top:10px;
     margin-left:215px;
     display:flex;
@@ -25,20 +26,21 @@ body{
 
 :root{
     --blue:#2196f3;
-    --white:#E5E5E5;
-    --black:#2F303A;
-    --white1:#fff;
-   
+    --white:#fff;
+    --black:#000;
+    --dark:#2F303A;
+    --grey:#E5E5E5;
+    --grey1:#757575;
 }
 .web{
     color:var(--blue);
 }
 .logo-link{
     text-decoration:none;
-    color:black;
+    color:var(--black);
 }
 .logo-link:hover{
-    color:var(--black);
+    color:var(--dark);
 }
 .nav-main{
     position: absolute;
@@ -59,6 +61,12 @@ body{
     letter-spacing:0.02em;
     padding-left:30px;
 } 
+.nav:focus{
+    color:#646464;
+}
+.nav:hover{
+    color:#646464;
+}
 li > a{
     color:var(--blue);
     text-decoration:none;
@@ -72,8 +80,17 @@ li > a{
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
-    color: #757575;
+    color:var(--grey1);
    
+}
+.link-address{
+    color:var(--grey1);
+}
+.link-address:hover{
+    color:#646464;
+}
+.link-address:focus{
+    color:var(--dark);
 }
 
 /* część main */
@@ -93,7 +110,8 @@ li > a{
     height:38px;
     border-radius: 4px;
     background-color:#F5F4FA;
-   }
+    cursor:pointer;
+}
 .box1{
     width: 121px;
     background-color: var(--blue); 
@@ -115,16 +133,16 @@ li > a{
 .box1:hover{
    background-color:#1085e2;
 }
-box:hover{
-    background-color:#E4E3E9;
-}
 
 .number{
     display:flex;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
+    background-color:var(--white);
+    /* border: 1px solid #EEEEEE;
+    box-sizing: border-box; */
   }
+ .img{
+        border: 1px solid #EEEEEE;
+ }
 .fig-frist{
     font-weight: 700;
     font-size: 18px;
@@ -139,7 +157,10 @@ box:hover{
     letter-spacing: 0.03em;
     color: #757575;
 }
-
+/* main index.html */
+.item-head{
+    
+}
 /* footer */
 
 .footer{
