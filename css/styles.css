@@ -159,8 +159,40 @@ li > a{
 }
 /* main index.html */
 .item-head{
-    
+    width: 1600px;
+    height: 600px;
+    background-color:var(--dark);
 }
+.header{
+  font-size: 44px;
+  line-height: 1.36em;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding:200px;
+  padding-bottom:30px;
+   color:var(--white);
+}
+.box-frist{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background-color:var(--blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+.lorem{
+    display:flex;
+}
+.text{
+    text-align: justify;
+}
+.header-text{
+    margin-left:40px;
+} 
+
 /* footer */
 
 .footer{
