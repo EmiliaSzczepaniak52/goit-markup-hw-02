@@ -210,7 +210,7 @@ li > a{
 /* footer */
 
 .footer{
-    background-color:var(--black);
+    background-color:var(--dark);
     color:var(--white);
     width:1600px;
     height:252px;
@@ -219,15 +219,15 @@ li > a{
 }
 .logo-item{
     padding:60px;
-    text-decoration:none;
-    color:black;
+    text-decoration:none; 
+    color:black; 
 
-}
+ } 
 .footer:hover{
     background-color: #1E2029;
 }
-.logo-address{
-    margin-top:115px;
+ .logo-address{
+
     margin-left:275px;  
     font-weight: 400;
     font-size: 14px;
@@ -240,15 +240,14 @@ li > a{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
-    margin:0;
     padding:0;
 
-}
+} 
 .nav_footer{
     line-height:1.14em;
     letter-spacing:0.02em;
     list-style:none;
-  
+
 }
 a[title]{
     text-decoration:underline;
